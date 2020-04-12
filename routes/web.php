@@ -24,7 +24,7 @@ Route::get('KhoaHoc/laravel/{ten}',function($ten){
 })->where(['ten'=>'[a-zA-Z]+']);
 
 //goi controller
-// Route::get('Goicontroller','Mycontroller@XinChao');
+Route::get('Goicontroller','Mycontroller@XinChao');
 
 
 Route::get('thamso/{ten}','Mycontroller@Khoahoc');
